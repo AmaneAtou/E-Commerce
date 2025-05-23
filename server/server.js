@@ -20,7 +20,7 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 //ket noi database
 
 
-mongoose.connect('mongodb+srv://amaneatou:Tuan230403@cluster0.vfo8jky.mongodb.net/').then(()=>console.log('MongoDB connected')).catch((error)=>console.log(error));
+mongoose.connect('').then(()=>console.log('MongoDB connected')).catch((error)=>console.log(error));
 
 const app = express();
 const PORT = process.env.PORT || 5000;
